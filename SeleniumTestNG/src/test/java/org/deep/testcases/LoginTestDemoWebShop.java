@@ -15,7 +15,7 @@ public class LoginTestDemoWebShop extends BaseClass {
 
         LandingPage landingpage = PageFactory.initElements(driver, LandingPage.class);
 
-        landingpage.loginDemo(excelData.getStringData("Sheet1",0,0), excelData.getStringData("Sheet1",0,1));
+        landingpage.loginDemo(excelData.getStringData("Sheet1", 0, 0), excelData.getStringData("Sheet1", 0, 1));
 
     }
 }

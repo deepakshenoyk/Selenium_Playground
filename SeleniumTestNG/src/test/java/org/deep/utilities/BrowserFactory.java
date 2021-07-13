@@ -15,18 +15,15 @@ public class BrowserFactory {
 
             System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
             driver = new ChromeDriver();
-        }
-        else if (browserName.equalsIgnoreCase("Firefox")) {
+        } else if (browserName.equalsIgnoreCase("Firefox")) {
             System.setProperty("webdriver.gecko.driver", "./geckodriver.exe");
             driver = new FirefoxDriver();
 
-        }
-        else if (browserName.equalsIgnoreCase("Edge")) {
+        } else if (browserName.equalsIgnoreCase("Edge")) {
             System.setProperty("webdriver.Edge.driver", "./Edgedriver.exe");
             driver = new EdgeDriver();
 
-        }
-        else {
+        } else {
             System.out.println("We Do not support " + browserName + " Browser");
         }
 

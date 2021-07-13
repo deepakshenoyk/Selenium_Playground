@@ -17,7 +17,7 @@ public class BaseClass {
     public void setupSuite() {
 
         excelData = new ExcelDataProvider();
-        config= new ConfigDataProvider();
+        config = new ConfigDataProvider();
     }
 
 
