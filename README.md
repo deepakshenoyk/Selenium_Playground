@@ -1,2 +1,2 @@
-# Selenium_TestNG
-Selenium with TestNG framework
+# Selenium_Playground
+Selenium with various frameworks
